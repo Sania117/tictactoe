@@ -1,3 +1,27 @@
+let currentPlayer = "O";
+
+let totalTurns = 0 ;
+
+let gameEnded = false; 
+
+function performLogic(buttonId, tileId) {
+
+    if(currentPlayer === "O"){
+
+        currentPlayer = "X";
+
+    } else{ currentPlayer === "O"}
+
+        $(tileId).html(currentPlayer)
+
+
+
+
+        
+    
+    
+}
+
 
 
 
